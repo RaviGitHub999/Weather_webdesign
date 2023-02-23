@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+    background-color: rgb(7, 7, 7);
+}
+.weather_card{
+    border: 2px solid;
+    width: 830px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+}
+.column_1{
+    height: 100%;
+    width: 45%;
+    background: url(./images/yannis-bontempi-ss45PEHeDvI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 35px 0px 0px 35px;
+}
+.weather_details{
+    padding: 27px;
+}
+.day{
+    font-size: 40px;
+}
+.date{
+    font-size: 18px;
+}
+.temperature{
+    position: relative;
+}
+.temperature i{
+    font-size: 67px;
+    margin-top: 7rem;
+    margin-bottom: 15px;
+}
+.temperature h1{
+    font-size: 67px;
+}
+.temperature span{
+position: absolute;
+
+font-size: 30px;
+font-weight: bold;
+
+}
+.column_2{
+    padding:35px ;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.forecasts{
+    background:rgb(43 43 43/50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.forecasts button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.forecasts button:focus{
+    background-color: white;
+    color: black;
+}
+.forecasts button i{
+    font-size: 25px;
+}
+.forecasts button span{
+    font-size: 18px;
+}
+.forecasts button h1{
+    font-size: 22px;
+}
